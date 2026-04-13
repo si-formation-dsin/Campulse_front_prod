@@ -133,6 +133,22 @@
 @font-face {
   font-family: 'Darby Sans Web';
   font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('fonts/DarbySans/webfonts/DarbySans-Medium-Web.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Darby Sans Web';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('fonts/DarbySans/webfonts/DarbySans-MediumItalic-Web.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Darby Sans Web';
+  font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url('fonts/DarbySans/webfonts/DarbySans-Bold-Web.woff2') format('woff2');
