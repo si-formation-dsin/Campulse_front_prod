@@ -55,26 +55,40 @@ h1 strong,
 }
 
 // ---------------- Home icons ----------------
-#home-info-panel .home-banner-icon {
+#home-info-panel .home-banner-icon.home-banner-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   i {
     position: static;
+    display: block;
     font-size: 2.8rem;
+    line-height: 1;
+  }
+
+  i::before {
+    display: block;
     line-height: 1;
   }
 }
 
-.home-section .section-card .section-title .section-icon span:first-child {
+.home-section .section-card .section-title .section-icon.section-icon span:first-child {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   i {
     position: static;
+    display: block;
     font-size: 2.6rem;
+    line-height: 1;
+  }
+
+  i::before {
+    display: block;
     line-height: 1;
   }
 }
