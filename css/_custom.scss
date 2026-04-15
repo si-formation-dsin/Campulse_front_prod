@@ -6,11 +6,9 @@ $titleFont: 'Darby Sans Web', 'Lucida Sans', 'Lucida Grande', sans-serif;
 $fontSize: 1.6rem;
 $headTitleMobileSize: 1.35rem;
 $headTitleComputerSize: 1.5rem;
-$titleSize: 1.7rem;
+$titleSize: 2rem;
 
 body {
-  font-family: $baseFont;
-  font-size: $fontSize;
   line-height: 1.55;
 }
 
@@ -23,38 +21,7 @@ h3,
   font-family: $titleFont;
 }
 
-h1,
-.title-1 {
-  font-size: 2.45rem;
-  font-weight: 700;
-  line-height: 1.05;
-}
-
-h2,
-.title-2 {
-  font-size: 2.05rem;
-  font-weight: 600;
-  line-height: 1.1;
-}
-
-h3,
-.title-3 {
-  font-size: $titleSize;
-  font-weight: 500;
-  line-height: 1.2;
-}
-
-b,
-strong {
-  font-weight: 600;
-}
-
-h1 strong,
-.title-1 strong {
-  font-weight: 700;
-}
-
-// ---------------- Home icons ----------------
+// ---------------- Home icon alignment ----------------
 #home-info-panel .home-banner-icon.home-banner-icon {
   display: inline-flex;
   align-items: center;
@@ -103,186 +70,29 @@ $textColor2: #554848;
 $textColor3: #ffffff;
 $associationColor: #3563A2;
 $associationColorBackground: #DDE5ED;
-$associationColorText: #000000;
+$associationColorText: $textColor1;
 $associationColorBorders: #999999;
 $associationColorHover: #54C0E8;
 $associationColorActive: #0075BF;
 
 $charterColor: #FDC300;
 $charterColorBackground: #FFF8E3;
-$charterColorText: #000000;
+$charterColorText: $textColor1;
 $charterColorBorders: #999999;
 $charterColorHover: #F28C00;
 $charterColorActive: #946A26;
 
 $commissionColor: #FF5C35;
 $commissionColorBackground: #FFEFEB;
-$commissionColorText: #000000;
+$commissionColorText: $textColor1;
 $commissionColorBorders: #999999;
 $commissionColorHover: #F39872;
 $commissionColorActive: #BC5328;
 
 $dashboardColor: #46772E;
 $dashboardColorBackground: #e7f3e3;
-$dashboardColorText: #000000;
+$dashboardColorText: $textColor1;
 $dashboardColorBorders: #999999;
 $dashboardColorHover: #598543;
 $dashboardColorActive: #3E6928;
 
-// ---------------- Home color corrections ----------------
-#home-info-panel {
-  .home-banner-icon.home-banner-icon {
-    border-color: $associationColor;
-
-    i {
-      color: $associationColor;
-    }
-  }
-}
-
-.home-section {
-  &.home-section-annuaire {
-    .section-card {
-      .section-background {
-        background-color: $associationColorBackground;
-
-        span {
-          border-color: transparent transparent transparent $associationColorBackground;
-        }
-      }
-
-      .section-title {
-        h2 > span:first-child {
-          color: $textColor1;
-        }
-
-        .section-icon {
-          span {
-            background-color: $associationColor;
-          }
-
-          span:first-child {
-            background-color: $associationColor;
-            color: $textColor1;
-
-            i {
-              color: $textColor1;
-            }
-          }
-        }
-      }
-
-      .section-info {
-        color: $textColor1;
-        border-left-color: $associationColor;
-      }
-
-      .section-content {
-        p {
-          color: $associationColorText;
-        }
-
-        .section-buttons a {
-          color: $associationColorText;
-          border-color: $associationColorText;
-        }
-      }
-    }
-  }
-
-  &.home-section-charte {
-    .section-card {
-      .section-background {
-        background-color: $charterColorBackground;
-
-        span {
-          border-color: transparent $charterColorBackground transparent transparent;
-        }
-      }
-
-      .section-title {
-        h2 > span {
-          color: $charterColorText;
-        }
-
-        .section-icon {
-          span {
-            background-color: $charterColor;
-            color: $charterColorText;
-          }
-
-          i {
-            background-color: $charterColor;
-            color: $charterColorText;
-          }
-        }
-      }
-
-      .section-info {
-        color: $charterColorText;
-        border-right-color: $charterColor;
-      }
-
-      .section-content {
-        p {
-          color: $charterColorText;
-        }
-
-        .section-buttons a {
-          color: $charterColorText;
-          border-color: $charterColorText;
-        }
-      }
-    }
-  }
-
-  &.home-section-cape {
-    .section-card {
-      .section-background {
-        background-color: $commissionColorBackground;
-
-        span {
-          border-color: transparent transparent transparent $commissionColorBackground;
-        }
-      }
-
-      .section-title {
-        h2 > span {
-          color: $textColor1;
-        }
-
-        .section-icon {
-          span {
-            background-color: $commissionColor;
-          }
-
-          span:first-child {
-            background-color: $commissionColor;
-            color: $textColor1;
-
-            i {
-              background-color: $commissionColor;
-              color: $textColor1;
-            }
-          }
-        }
-      }
-
-      .section-info {
-        color: $textColor1;
-        border-color: $commissionColor;
-      }
-
-      .section-content {
-        p {
-          color: $commissionColorText;
-        }
-
-        .section-buttons a {
-          color: $commissionColorText;
-          border-color: $commissionColorText;
-        }
-      }
-    }
-  }
-}
