@@ -135,7 +135,7 @@ $dashboardColorActive: #3E6928;
     border-color: $associationColor;
 
     i {
-      color: $textColor1;
+      color: $associationColor;
     }
   }
 }
@@ -153,7 +153,7 @@ $dashboardColorActive: #3E6928;
 
       .section-title {
         h2 > span:first-child {
-          color: $associationColorText;
+          color: $textColor1;
         }
 
         .section-icon {
@@ -173,7 +173,7 @@ $dashboardColorActive: #3E6928;
       }
 
       .section-info {
-        color: $associationColorText;
+        color: $textColor1;
         border-left-color: $associationColor;
       }
 
@@ -247,9 +247,8 @@ $dashboardColorActive: #3E6928;
       }
 
       .section-title {
-        h1,
-        .section-subtitle {
-          color: $commissionColorText;
+        h2 > span {
+          color: $textColor1;
         }
 
         .section-icon {
@@ -270,7 +269,7 @@ $dashboardColorActive: #3E6928;
       }
 
       .section-info {
-        color: $commissionColorText;
+        color: $textColor1;
         border-color: $commissionColor;
       }
 
