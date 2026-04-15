@@ -101,12 +101,12 @@ $footerTextColor: #FFFFFF;
 $textColor1: #000000;
 $textColor2: #554848;
 $textColor3: #ffffff;
-$associationColor: #54C0E8;
-$associationColorBackground: #E7F6FC;
+$associationColor: #3563A2;
+$associationColorBackground: #DDE5ED;
 $associationColorText: #3563A2;
 $associationColorBorders: #999999;
-$associationColorHover: #95D3E6;
-$associationColorActive: #3563A2;
+$associationColorHover: #54C0E8;
+$associationColorActive: #0075BF;
 
 $charterColor: #FDC300;
 $charterColorBackground: #FFF8E3;
@@ -128,3 +128,162 @@ $dashboardColorText: #000000;
 $dashboardColorBorders: #999999;
 $dashboardColorHover: #598543;
 $dashboardColorActive: #3E6928;
+
+// ---------------- Home color corrections ----------------
+#home-info-panel {
+  .home-banner-icon.home-banner-icon {
+    border-color: $associationColor;
+
+    i {
+      color: $textColor1;
+    }
+  }
+}
+
+.home-section {
+  &.home-section-annuaire {
+    .section-card {
+      .section-background {
+        background-color: $associationColorBackground;
+
+        span {
+          border-color: transparent transparent transparent $associationColorBackground;
+        }
+      }
+
+      .section-title {
+        h2 > span:first-child {
+          color: $associationColorText;
+        }
+
+        .section-icon {
+          span {
+            background-color: $associationColor;
+          }
+
+          span:first-child {
+            background-color: $associationColor;
+            color: $textColor1;
+
+            i {
+              color: $textColor1;
+            }
+          }
+        }
+      }
+
+      .section-info {
+        color: $associationColorText;
+        border-left-color: $associationColor;
+      }
+
+      .section-content {
+        p {
+          color: $associationColorText;
+        }
+
+        .section-buttons a {
+          color: $associationColorText;
+          border-color: $associationColorText;
+        }
+      }
+    }
+  }
+
+  &.home-section-charte {
+    .section-card {
+      .section-background {
+        background-color: $charterColorBackground;
+
+        span {
+          border-color: transparent $charterColorBackground transparent transparent;
+        }
+      }
+
+      .section-title {
+        h2 > span {
+          color: $charterColorText;
+        }
+
+        .section-icon {
+          span {
+            background-color: $charterColor;
+            color: $charterColorText;
+          }
+
+          i {
+            background-color: $charterColor;
+            color: $charterColorText;
+          }
+        }
+      }
+
+      .section-info {
+        color: $charterColorText;
+        border-right-color: $charterColor;
+      }
+
+      .section-content {
+        p {
+          color: $charterColorText;
+        }
+
+        .section-buttons a {
+          color: $charterColorText;
+          border-color: $charterColorText;
+        }
+      }
+    }
+  }
+
+  &.home-section-cape {
+    .section-card {
+      .section-background {
+        background-color: $commissionColorBackground;
+
+        span {
+          border-color: transparent transparent transparent $commissionColorBackground;
+        }
+      }
+
+      .section-title {
+        h1,
+        .section-subtitle {
+          color: $commissionColorText;
+        }
+
+        .section-icon {
+          span {
+            background-color: $commissionColor;
+          }
+
+          span:first-child {
+            background-color: $commissionColor;
+            color: $textColor1;
+
+            i {
+              background-color: $commissionColor;
+              color: $textColor1;
+            }
+          }
+        }
+      }
+
+      .section-info {
+        color: $commissionColorText;
+        border-color: $commissionColor;
+      }
+
+      .section-content {
+        p {
+          color: $commissionColorText;
+        }
+
+        .section-buttons a {
+          color: $commissionColorText;
+          border-color: $commissionColorText;
+        }
+      }
+    }
+  }
+}
