@@ -3,43 +3,114 @@ $baseFont: 'Open Sans', Arial, sans-serif;
 $titleFont: 'Darby Sans Web', 'Lucida Sans', 'Lucida Grande', sans-serif;
 
 // Font-size
-$fontSize: 1.65rem;
-$headTitleMobileSize: 1.4rem;
-$headTitleComputerSize: 1.85rem;
-$titleSize: 2.15rem;
+$fontSize: 1.6rem;
+$headTitleMobileSize: 1.35rem;
+$headTitleComputerSize: 1.5rem;
+$titleSize: 1.7rem;
+
+body {
+  font-family: $baseFont;
+  font-size: $fontSize;
+  line-height: 1.55;
+}
+
+h1,
+.title-1,
+h2,
+.title-2,
+h3,
+.title-3 {
+  font-family: $titleFont;
+}
+
+h1,
+.title-1 {
+  font-size: 2.45rem;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+h2,
+.title-2 {
+  font-size: 2.05rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+h3,
+.title-3 {
+  font-size: $titleSize;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+h1 strong,
+.title-1 strong {
+  font-weight: 700;
+}
+
+// ---------------- Home icons ----------------
+#home-info-panel .home-banner-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  i {
+    position: static;
+    font-size: 2.8rem;
+    line-height: 1;
+  }
+}
+
+.home-section .section-card .section-title .section-icon span:first-child {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  i {
+    position: static;
+    font-size: 2.6rem;
+    line-height: 1;
+  }
+}
 
 // ---------------- Colors ----------------
 $backgroundColor1: #ffffff;
-$backgroundColor2: #f5f5f5;
-$footerBackgroundColor: #2c2c2c;
-$footerTextColor: #9CC0DB;
-$textColor1: #272727;
-$textColor2: #67727D;
+$backgroundColor2: #F1F5F8;
+$footerBackgroundColor: #000000;
+$footerTextColor: #FFFFFF;
+$textColor1: #000000;
+$textColor2: #554848;
 $textColor3: #ffffff;
-$associationColor: #3971be;
-$associationColorBackground: #e7efff;
-$associationColorText: #152639;
-$associationColorBorders: #aeb8c4;
-$associationColorHover: #3065b4;
-$associationColorActive: #285496;
+$associationColor: #5BC2E7;
+$associationColorBackground: #DDE5ED;
+$associationColorText: #000000;
+$associationColorBorders: #999999;
+$associationColorHover: #6BC8E9;
+$associationColorActive: #50ABCB;
 
-$charterColor: #ffc64a;
-$charterColorBackground: #fff6e4;
-$charterColorText: #4d3a1e;
-$charterColorBorders: #c4b8ae;
-$charterColorHover: #fab83e;
-$charterColorActive: #f1ad2d;
+$charterColor: #E66700;
+$charterColorBackground: #F1F1DE;
+$charterColorText: #000000;
+$charterColorBorders: #999999;
+$charterColorHover: #E9761A;
+$charterColorActive: #CA5B00;
 
-$commissionColor: #df3603;
+$commissionColor: #FF5C39;
 $commissionColorBackground: #ffefe9;
-$commissionColorText: #4d271b;
-$commissionColorBorders: #c4b3ae;
-$commissionColorHover: #e25c27;
-$commissionColorActive: #c74f20;
+$commissionColorText: #000000;
+$commissionColorBorders: #999999;
+$commissionColorHover: #FF6C4D;
+$commissionColorActive: #E05132;
 
-$dashboardColor: #257875;
-$dashboardColorBackground: #e7f3f2;
-$dashboardColorText: #10312e;
-$dashboardColorBorders: #a2b9b7;
-$dashboardColorHover: #2e857d;
-$dashboardColorActive: #27746d;
+$dashboardColor: #46772E;
+$dashboardColorBackground: #e7f3e3;
+$dashboardColorText: #000000;
+$dashboardColorBorders: #999999;
+$dashboardColorHover: #598543;
+$dashboardColorActive: #3E6928;
