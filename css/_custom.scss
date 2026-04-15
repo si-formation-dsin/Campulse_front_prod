@@ -96,3 +96,61 @@ $dashboardColorBorders: #999999;
 $dashboardColorHover: #598543;
 $dashboardColorActive: #3E6928;
 
+
+
+
+
+// ---------------- Home secondary action buttons ----------------
+.home-section.home-section .section-card .section-content .section-buttons {
+  text-align: center;
+}
+
+.home-section.home-section .section-card .section-content .section-buttons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-width: 0;
+  max-width: none;
+  padding: 0.95rem 2rem;
+  border: 2px solid $textColor1;
+  border-radius: 999rem;
+  background: $backgroundColor1;
+  color: $textColor1;
+  box-shadow: none;
+  font-family: $baseFont;
+  font-size: $fontSize;
+  font-weight: $normal-weight;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-decoration: none;
+  transition: background-color 0.03s linear, color 0.03s linear, border-color 0.03s linear;
+}
+
+.home-section.home-section .section-card .section-content .section-buttons a i {
+  position: static;
+  top: auto;
+  margin-left: .35rem;
+  font-size: 2rem;
+  line-height: 1;
+  color: inherit;
+}
+
+.home-section.home-section .section-card .section-content .section-buttons a:hover,
+.home-section.home-section .section-card .section-content .section-buttons a:focus-visible,
+.home-section.home-section .section-card .section-content .section-buttons a:active {
+  background: $textColor1;
+  border-color: $textColor1;
+  color: $textColor3;
+}
+
+.home-section.home-section .section-card .section-content .section-buttons a:hover i,
+.home-section.home-section .section-card .section-content .section-buttons a:focus-visible i,
+.home-section.home-section .section-card .section-content .section-buttons a:active i {
+  color: inherit;
+}
+
+.home-section.home-section .section-card .section-content .section-buttons a:focus-visible {
+  outline: .2rem solid rgba(0, 0, 0, 0.8);
+  outline-offset: .25rem;
+}
