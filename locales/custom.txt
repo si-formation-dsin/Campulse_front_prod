@@ -1,0 +1,9 @@
+charter.site.name=UPCité
+home.charter.title-line-1=Charte
+home.charter.title-line-2=des associations du @:charter.site.name
+cape=CAP
+home.commission.title-line-1=@:cap
+home.commission.title-line-2=CPA–Commission Projets Associatif
+project.recap=ré'CAP
+project.download-recap=Télécharger le @:project.recap au format PDF
+university-name=Université Paris Cité
