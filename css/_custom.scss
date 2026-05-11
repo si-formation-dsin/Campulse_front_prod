@@ -156,10 +156,10 @@ $dashboardColorActive: #8A1538;
 }
 
 // ---------------- Home sections aligned with validated mockup ----------------
-.home-section.home-section-annuaire,
-.home-section.home-section-charte,
-.home-section.home-section-cape {
-  background-image: none !important;
+.home-section.home-section.home-section-annuaire,
+.home-section.home-section.home-section-charte,
+.home-section.home-section.home-section-cape {
+  background-image: none;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -192,13 +192,13 @@ $dashboardColorActive: #8A1538;
   }
 }
 
-.home-section .section-card .section-title {
+.home-section.home-section .section-card .section-title {
   h2,
   h2 > span,
   h2 > span:first-child,
   h2 > span:last-child {
-    color: $textColor1 !important;
-    text-transform: none !important;
+    color: $textColor1;
+    text-transform: none;
   }
 }
 
@@ -208,28 +208,28 @@ $dashboardColorActive: #8A1538;
   color: $textColor1;
 }
 
-.home-section .section-card .section-title .section-icon {
-  gap: .45rem !important;
+.home-section.home-section .section-card .section-title .section-icon.section-icon {
+  gap: .45rem;
 
   span {
-    width: 1.6rem !important;
-    height: 1.6rem !important;
-    background-color: $associationColor !important;
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: $associationColor;
   }
 
   span:first-child {
-    width: 3.8rem !important;
-    height: 3.8rem !important;
+    width: 3.8rem;
+    height: 3.8rem;
 
     i {
-      position: static !important;
-      display: block !important;
-      font-size: 2.1rem !important;
-      line-height: 1 !important;
-      top: auto !important;
-      left: auto !important;
-      color: $textColor3 !important;
-      background-color: transparent !important;
+      position: static;
+      display: block;
+      font-size: 2.1rem;
+      line-height: 1;
+      top: auto;
+      left: auto;
+      color: $textColor3;
+      background-color: transparent;
     }
   }
 }
@@ -239,26 +239,26 @@ $dashboardColorActive: #8A1538;
   border-bottom-color: $associationColor;
 
   .wrapper li img {
-    max-height: 6.2rem !important;
+    max-height: 6.2rem;
   }
 }
 
-.home-section .section-card .section-content .section-buttons a {
-  color: $associationColor !important;
-  border-color: $associationColor !important;
+.home-section.home-section .section-card .section-content .section-buttons a {
+  color: $associationColor;
+  border-color: $associationColor;
 }
 
-.home-section .section-card .section-content .section-buttons a:hover,
-.home-section .section-card .section-content .section-buttons a:focus-visible,
-.home-section .section-card .section-content .section-buttons a:active {
-  background: $associationColor !important;
-  border-color: $associationColor !important;
-  color: $textColor3 !important;
+.home-section.home-section .section-card .section-content .section-buttons a:hover,
+.home-section.home-section .section-card .section-content .section-buttons a:focus-visible,
+.home-section.home-section .section-card .section-content .section-buttons a:active {
+  background: $associationColor;
+  border-color: $associationColor;
+  color: $textColor3;
 }
 
-.home-section .section-card .section-content .section-buttons a i,
-.home-section .section-card .section-content .section-buttons a:hover i,
-.home-section .section-card .section-content .section-buttons a:focus-visible i,
-.home-section .section-card .section-content .section-buttons a:active i {
-  color: inherit !important;
+.home-section.home-section .section-card .section-content .section-buttons a i,
+.home-section.home-section .section-card .section-content .section-buttons a:hover i,
+.home-section.home-section .section-card .section-content .section-buttons a:focus-visible i,
+.home-section.home-section .section-card .section-content .section-buttons a:active i {
+  color: inherit;
 }
