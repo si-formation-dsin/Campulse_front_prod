@@ -159,7 +159,9 @@ $dashboardColorActive: #8A1538;
 .home-section.home-section-annuaire,
 .home-section.home-section-charte,
 .home-section.home-section-cape {
-  background-image: none;
+  background-image: none !important;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .home-section.home-section-annuaire {
