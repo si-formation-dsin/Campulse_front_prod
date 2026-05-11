@@ -68,33 +68,33 @@ $footerTextColor: #FFFFFF;
 $textColor1: #000000;
 $textColor2: #554848;
 $textColor3: #ffffff;
-$associationColor: #3563A2;
+$associationColor: #8A1538;
 $associationColorBackground: #DDE5ED;
 $associationColorText: $textColor1;
 $associationColorBorders: #999999;
-$associationColorHover: #54C0E8;
-$associationColorActive: #0075BF;
+$associationColorHover: #A14460;
+$associationColorActive: #8A1538;
 
-$charterColor: #FDC300;
-$charterColorBackground: #FFF8E3;
+$charterColor: #8A1538;
+$charterColorBackground: #DDE5ED;
 $charterColorText: $textColor1;
 $charterColorBorders: #999999;
-$charterColorHover: #F28C00;
-$charterColorActive: #946A26;
+$charterColorHover: #A14460;
+$charterColorActive: #8A1538;
 
-$commissionColor: #FF5C35;
-$commissionColorBackground: #FFEFEB;
+$commissionColor: #8A1538;
+$commissionColorBackground: #DDE5ED;
 $commissionColorText: $textColor1;
 $commissionColorBorders: #999999;
-$commissionColorHover: #F39872;
-$commissionColorActive: #BC5328;
+$commissionColorHover: #A14460;
+$commissionColorActive: #8A1538;
 
-$dashboardColor: #46772E;
-$dashboardColorBackground: #e7f3e3;
+$dashboardColor: #8A1538;
+$dashboardColorBackground: #DDE5ED;
 $dashboardColorText: $textColor1;
 $dashboardColorBorders: #999999;
-$dashboardColorHover: #598543;
-$dashboardColorActive: #3E6928;
+$dashboardColorHover: #A14460;
+$dashboardColorActive: #8A1538;
 
 
 
@@ -153,4 +153,85 @@ $dashboardColorActive: #3E6928;
 .home-section.home-section .section-card .section-content .section-buttons a:focus-visible {
   outline: .2rem solid rgba(0, 0, 0, 0.8);
   outline-offset: .25rem;
+}
+
+// ---------------- Home sections aligned with validated mockup ----------------
+.home-section.home-section-annuaire,
+.home-section.home-section-charte,
+.home-section.home-section-cape {
+  background-image: none;
+}
+
+.home-section.home-section-annuaire {
+  background-color: #8F163B;
+}
+
+.home-section.home-section-charte {
+  background-color: #A94E6A;
+}
+
+.home-section.home-section-cape {
+  background-color: #BB8194;
+}
+
+.home-section .section-card .section-background {
+  background-color: #DDE5ED;
+
+  span {
+    border-color: transparent transparent transparent #DDE5ED;
+  }
+}
+
+.home-section.home-section-charte .section-card .section-background {
+  background-color: #DDE5ED;
+
+  span {
+    border-color: transparent #DDE5ED transparent transparent;
+  }
+}
+
+.home-section .section-card .section-title {
+  h2,
+  h2 > span,
+  h2 > span:first-child,
+  h2 > span:last-child {
+    color: $textColor1;
+    text-transform: none;
+  }
+}
+
+.home-section .section-card .section-info,
+.home-section .section-card .section-info p,
+.home-section .section-card .section-info strong {
+  color: $textColor1;
+}
+
+.home-section .section-card .section-title .section-icon {
+  gap: .45rem;
+
+  span {
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: $associationColor;
+  }
+
+  span:first-child {
+    width: 3.8rem;
+    height: 3.8rem;
+
+    i {
+      font-size: 2.1rem;
+      top: -0.65rem;
+      color: $textColor3;
+    }
+  }
+}
+
+#layout-footer .footer-logos {
+  background-color: #DDE5ED;
+  border-bottom-color: $associationColor;
+
+  .wrapper li img {
+    max-height: 6.2rem;
+  }
 }
