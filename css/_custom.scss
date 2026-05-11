@@ -124,6 +124,7 @@ $dashboardColorActive: #8A1538;
   line-height: 1.2;
   letter-spacing: 0;
   text-decoration: none;
+  text-transform: none;
   transition: background-color 0.03s linear, color 0.03s linear, border-color 0.03s linear;
 }
 
@@ -290,9 +291,9 @@ $dashboardColorActive: #8A1538;
 .home-section.home-section-cape .section-card .section-content .section-buttons a:hover,
 .home-section.home-section-cape .section-card .section-content .section-buttons a:focus-visible,
 .home-section.home-section-cape .section-card .section-content .section-buttons a:active {
-  background: $associationColor;
-  border-color: $associationColor;
-  color: $textColor3;
+  background: $associationColor !important;
+  border-color: $associationColor !important;
+  color: $textColor3 !important;
 }
 
 .home-section.home-section-charte .section-card .section-content .section-buttons a:hover i,
@@ -301,5 +302,5 @@ $dashboardColorActive: #8A1538;
 .home-section.home-section-cape .section-card .section-content .section-buttons a:hover i,
 .home-section.home-section-cape .section-card .section-content .section-buttons a:focus-visible i,
 .home-section.home-section-cape .section-card .section-content .section-buttons a:active i {
-  color: $textColor3;
+  color: $textColor3 !important;
 }
