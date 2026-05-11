@@ -304,3 +304,10 @@ $dashboardColorActive: #8A1538;
 .home-section.home-section-cape .section-card .section-content .section-buttons a:active i {
   color: $textColor3 !important;
 }
+
+#layout-breadcrumbs.variant-space-2 ul li,
+#layout-breadcrumbs.variant-space-2 ul li::after,
+#layout-breadcrumbs.variant-space-2 ul li a,
+#layout-breadcrumbs.variant-space-2 ul li[aria-current='page'] {
+  color: $textColor3;
+}
