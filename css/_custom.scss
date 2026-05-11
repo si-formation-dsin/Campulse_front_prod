@@ -264,9 +264,24 @@ $dashboardColorActive: #8A1538;
 }
 
 .home-section.home-section-charte .section-card .section-content .section-buttons a,
-.home-section.home-section-cape .section-card .section-content .section-buttons a {
+.home-section.home-section-cape .section-card .section-content .section-buttons a,
+.home-section.home-section-charte .section-card .section-content .section-buttons a:link,
+.home-section.home-section-cape .section-card .section-content .section-buttons a:link,
+.home-section.home-section-charte .section-card .section-content .section-buttons a:visited,
+.home-section.home-section-cape .section-card .section-content .section-buttons a:visited {
+  background: $backgroundColor1;
   color: $associationColor;
-  border-color: $associationColor;
+  border: 2px solid $associationColor;
+  box-shadow: none;
+}
+
+.home-section.home-section-charte .section-card .section-content .section-buttons a i,
+.home-section.home-section-cape .section-card .section-content .section-buttons a i,
+.home-section.home-section-charte .section-card .section-content .section-buttons a:link i,
+.home-section.home-section-cape .section-card .section-content .section-buttons a:link i,
+.home-section.home-section-charte .section-card .section-content .section-buttons a:visited i,
+.home-section.home-section-cape .section-card .section-content .section-buttons a:visited i {
+  color: $associationColor;
 }
 
 .home-section.home-section-charte .section-card .section-content .section-buttons a:hover,
@@ -277,5 +292,14 @@ $dashboardColorActive: #8A1538;
 .home-section.home-section-cape .section-card .section-content .section-buttons a:active {
   background: $associationColor;
   border-color: $associationColor;
+  color: $textColor3;
+}
+
+.home-section.home-section-charte .section-card .section-content .section-buttons a:hover i,
+.home-section.home-section-charte .section-card .section-content .section-buttons a:focus-visible i,
+.home-section.home-section-charte .section-card .section-content .section-buttons a:active i,
+.home-section.home-section-cape .section-card .section-content .section-buttons a:hover i,
+.home-section.home-section-cape .section-card .section-content .section-buttons a:focus-visible i,
+.home-section.home-section-cape .section-card .section-content .section-buttons a:active i {
   color: $textColor3;
 }
