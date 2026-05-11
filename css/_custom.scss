@@ -197,8 +197,8 @@ $dashboardColorActive: #8A1538;
   h2 > span,
   h2 > span:first-child,
   h2 > span:last-child {
-    color: $textColor1;
-    text-transform: none;
+    color: $textColor1 !important;
+    text-transform: none !important;
   }
 }
 
@@ -209,22 +209,27 @@ $dashboardColorActive: #8A1538;
 }
 
 .home-section .section-card .section-title .section-icon {
-  gap: .45rem;
+  gap: .45rem !important;
 
   span {
-    width: 1.6rem;
-    height: 1.6rem;
-    background-color: $associationColor;
+    width: 1.6rem !important;
+    height: 1.6rem !important;
+    background-color: $associationColor !important;
   }
 
   span:first-child {
-    width: 3.8rem;
-    height: 3.8rem;
+    width: 3.8rem !important;
+    height: 3.8rem !important;
 
     i {
-      font-size: 2.1rem;
-      top: -0.65rem;
-      color: $textColor3;
+      position: static !important;
+      display: block !important;
+      font-size: 2.1rem !important;
+      line-height: 1 !important;
+      top: auto !important;
+      left: auto !important;
+      color: $textColor3 !important;
+      background-color: transparent !important;
     }
   }
 }
@@ -234,6 +239,26 @@ $dashboardColorActive: #8A1538;
   border-bottom-color: $associationColor;
 
   .wrapper li img {
-    max-height: 6.2rem;
+    max-height: 6.2rem !important;
   }
+}
+
+.home-section .section-card .section-content .section-buttons a {
+  color: $associationColor !important;
+  border-color: $associationColor !important;
+}
+
+.home-section .section-card .section-content .section-buttons a:hover,
+.home-section .section-card .section-content .section-buttons a:focus-visible,
+.home-section .section-card .section-content .section-buttons a:active {
+  background: $associationColor !important;
+  border-color: $associationColor !important;
+  color: $textColor3 !important;
+}
+
+.home-section .section-card .section-content .section-buttons a i,
+.home-section .section-card .section-content .section-buttons a:hover i,
+.home-section .section-card .section-content .section-buttons a:focus-visible i,
+.home-section .section-card .section-content .section-buttons a:active i {
+  color: inherit !important;
 }
