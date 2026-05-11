@@ -311,3 +311,84 @@ $dashboardColorActive: #8A1538;
 #layout-breadcrumbs.variant-space-2 ul li[aria-current='page'] {
   color: $textColor3;
 }
+
+// ---------------- Form action buttons aligned with home buttons ----------------
+form .q-btn {
+  background: $associationColor;
+  color: $textColor3;
+  border: 2px solid $associationColor;
+  border-radius: 999rem;
+  box-shadow: 0 0.375rem 1.125rem rgba(138, 21, 56, 0.12);
+  text-transform: none;
+  letter-spacing: 0;
+  min-height: 0;
+  height: auto;
+  padding: 0.95rem 2rem;
+  line-height: 1.2;
+}
+
+form .q-btn .q-btn__content,
+form .q-btn span,
+form .q-btn i {
+  color: $textColor3;
+}
+
+form .q-btn .q-btn__content {
+  min-height: 0;
+  line-height: 1.2;
+  font-size: 1.6rem;
+  gap: .6rem;
+}
+
+form .q-btn i {
+  font-size: 1.9rem;
+}
+
+form .q-btn:hover,
+form .q-btn:focus,
+form .q-btn:focus-visible,
+form .q-btn:active {
+  background: $backgroundColor1;
+  color: $associationColor;
+  border-color: $associationColor;
+}
+
+form .q-btn:hover .q-btn__content,
+form .q-btn:focus .q-btn__content,
+form .q-btn:focus-visible .q-btn__content,
+form .q-btn:active .q-btn__content,
+form .q-btn:hover span,
+form .q-btn:focus span,
+form .q-btn:focus-visible span,
+form .q-btn:active span,
+form .q-btn:hover i,
+form .q-btn:focus i,
+form .q-btn:focus-visible i,
+form .q-btn:active i {
+  color: $associationColor;
+}
+
+form .q-btn .q-focus-helper {
+  opacity: 0;
+}
+
+form .q-btn:disabled,
+form .q-btn[disabled],
+form .q-btn.disabled {
+  background: #d9d9d9;
+  color: #666666;
+  border-color: #d9d9d9;
+  box-shadow: none;
+}
+
+form .q-btn:disabled .q-btn__content,
+form .q-btn[disabled] .q-btn__content,
+form .q-btn.disabled .q-btn__content,
+form .q-btn:disabled span,
+form .q-btn[disabled] span,
+form .q-btn.disabled span,
+form .q-btn:disabled i,
+form .q-btn[disabled] i,
+form .q-btn.disabled i {
+  color: #666666;
+}
