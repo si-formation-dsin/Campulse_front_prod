@@ -262,3 +262,20 @@ $dashboardColorActive: #8A1538;
 .home-section.home-section .section-card .section-content .section-buttons a:active i {
   color: inherit;
 }
+
+.home-section.home-section-charte .section-card .section-content .section-buttons a,
+.home-section.home-section-cape .section-card .section-content .section-buttons a {
+  color: $associationColor;
+  border-color: $associationColor;
+}
+
+.home-section.home-section-charte .section-card .section-content .section-buttons a:hover,
+.home-section.home-section-charte .section-card .section-content .section-buttons a:focus-visible,
+.home-section.home-section-charte .section-card .section-content .section-buttons a:active,
+.home-section.home-section-cape .section-card .section-content .section-buttons a:hover,
+.home-section.home-section-cape .section-card .section-content .section-buttons a:focus-visible,
+.home-section.home-section-cape .section-card .section-content .section-buttons a:active {
+  background: $associationColor;
+  border-color: $associationColor;
+  color: $textColor3;
+}
