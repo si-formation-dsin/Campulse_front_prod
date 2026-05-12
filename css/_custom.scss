@@ -709,3 +709,43 @@ form .q-btn:not(.q-btn--outline).disabled i {
   color: $textColor3 !important;
   fill: $textColor3 !important;
 }
+
+// ---------------- Outline hover and bulk action sizing fixes ----------------
+.container-lg.flex-row-space-between > a.q-btn.q-btn--outline::before,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline::before,
+.page-card .flex-row-center > a.q-btn.q-btn--outline::before,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg::before,
+.flex-row-center .q-btn.q-btn--outline.btn-lg::before {
+  border: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.table-actions-select {
+  align-items: center !important;
+}
+
+.table-actions-select > .q-btn.btn-lg,
+.table-actions-select .q-btn.btn-lg[type='button'] {
+  align-self: center !important;
+  min-height: 0 !important;
+  height: auto !important;
+  padding: 0.95rem 2rem !important;
+  line-height: 1.2 !important;
+  border-radius: 999rem !important;
+}
+
+.table-actions-select > .q-btn.btn-lg .q-btn__content,
+.table-actions-select .q-btn.btn-lg[type='button'] .q-btn__content {
+  min-height: 0 !important;
+  height: auto !important;
+  line-height: 1.2 !important;
+  font-size: 1.6rem !important;
+  gap: .6rem !important;
+  padding: 0 !important;
+}
+
+.table-actions-select > .q-btn.btn-lg i,
+.table-actions-select .q-btn.btn-lg[type='button'] i {
+  font-size: 1.9rem !important;
+}
