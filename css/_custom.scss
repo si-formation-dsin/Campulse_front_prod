@@ -394,7 +394,7 @@ form .q-btn.disabled i {
 }
 
 // ---------------- Global standard Quasar buttons ----------------
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) {
   background: $associationColor;
   color: $textColor3;
   border: 2px solid $associationColor;
@@ -408,7 +408,7 @@ form .q-btn.disabled i {
   line-height: 1.2;
 }
 
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) .q-btn__content {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) .q-btn__content {
   min-height: 0 !important;
   line-height: 1.2;
   font-size: 1.6rem;
@@ -416,39 +416,108 @@ form .q-btn.disabled i {
   color: $textColor3;
 }
 
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) span,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) i {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) span,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) i {
   color: $textColor3;
 }
 
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) i {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) i {
   font-size: 1.9rem;
 }
 
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active {
   background: $backgroundColor1 !important;
   color: $associationColor;
   border-color: $associationColor;
 }
 
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover .q-btn__content,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus .q-btn__content,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible .q-btn__content,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active .q-btn__content,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover span,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus span,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible span,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active span,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover i,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus i,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible i,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active i {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover .q-btn__content,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus .q-btn__content,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible .q-btn__content,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active .q-btn__content,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover span,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus span,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible span,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active span,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover i,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus i,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible i,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active i {
   color: $associationColor;
 }
 
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) .q-focus-helper {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) .q-focus-helper {
   opacity: 0;
+}
+
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission {
+  background: $backgroundColor1;
+  background-color: $backgroundColor1;
+  background-image: none;
+  color: $associationColor;
+  border: 2px solid $associationColor;
+  box-shadow: none;
+}
+
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission::before,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission::after {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission .q-btn__content,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission .block,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission span,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission i {
+  color: $associationColor;
+  fill: $associationColor;
+}
+
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active {
+  background: $associationColor !important;
+  background-color: $associationColor !important;
+  background-image: none !important;
+  color: $textColor3 !important;
+  border-color: $associationColor !important;
+  box-shadow: none !important;
+}
+
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover::before,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover::after,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible::before,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible::after,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active::before,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active::after {
+  background: $associationColor !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover .q-btn__content,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover .block,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover span,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover i,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible .q-btn__content,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible .block,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible span,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible i,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active .q-btn__content,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active .block,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active span,
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active i {
+  color: $textColor3 !important;
+  fill: $textColor3 !important;
+}
+
+.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission .q-focus-helper {
+  display: none !important;
+  opacity: 0 !important;
+  background: transparent !important;
 }
