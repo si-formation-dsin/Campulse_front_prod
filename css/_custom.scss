@@ -312,6 +312,11 @@ $dashboardColorActive: #8A1538;
   color: $textColor3;
 }
 
+.variant-space-2 .navigate-top-button button,
+.variant-space-2 .navigate-top-button button i {
+  color: $textColor3;
+}
+
 // ---------------- Form action buttons aligned with home buttons ----------------
 form .q-btn {
   background: $associationColor;
@@ -393,6 +398,24 @@ form .q-btn.disabled i {
   color: #666666;
 }
 
+.btn-lg.q-btn {
+  padding: 0.95rem 2rem !important;
+  min-height: 0 !important;
+  height: auto !important;
+  line-height: 1.2 !important;
+}
+
+.btn-lg.q-btn .q-btn__content {
+  min-height: 0 !important;
+  line-height: 1.2 !important;
+  font-size: 1.6rem !important;
+  gap: .6rem !important;
+}
+
+.btn-lg.q-btn i {
+  font-size: 1.9rem !important;
+}
+
 // ---------------- Global standard Quasar buttons ----------------
 .q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) {
   background: $associationColor;
@@ -453,34 +476,34 @@ form .q-btn.disabled i {
   opacity: 0;
 }
 
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission {
+.page-card .flex-row-center > a.q-btn.q-btn--outline {
   background: $backgroundColor1;
   background-color: $backgroundColor1;
   background-image: none;
-  color: $associationColor;
-  border: 2px solid $associationColor;
+  color: $associationColor !important;
+  border: 2px solid $associationColor !important;
   box-shadow: none;
 }
 
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission::before,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission::after {
+.page-card .flex-row-center > a.q-btn.q-btn--outline::before,
+.page-card .flex-row-center > a.q-btn.q-btn--outline::after {
   background: transparent;
   border: 0;
   box-shadow: none;
 }
 
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission .q-btn__content,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission .block,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission span,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission i {
-  color: $associationColor;
-  fill: $associationColor;
+.page-card .flex-row-center > a.q-btn.q-btn--outline .q-btn__content,
+.page-card .flex-row-center > a.q-btn.q-btn--outline .block,
+.page-card .flex-row-center > a.q-btn.q-btn--outline span,
+.page-card .flex-row-center > a.q-btn.q-btn--outline i {
+  color: $associationColor !important;
+  fill: $associationColor !important;
 }
 
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active {
+.page-card .flex-row-center > a.q-btn.q-btn--outline:hover,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:focus,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:focus-visible,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:active {
   background: $associationColor !important;
   background-color: $associationColor !important;
   background-image: none !important;
@@ -489,35 +512,74 @@ form .q-btn.disabled i {
   box-shadow: none !important;
 }
 
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover::before,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover::after,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible::before,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible::after,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active::before,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active::after {
+.page-card .flex-row-center > a.q-btn.q-btn--outline:hover::before,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:hover::after,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:focus-visible::before,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:focus-visible::after,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:active::before,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:active::after {
   background: $associationColor !important;
   border: 0 !important;
   box-shadow: none !important;
 }
 
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover .q-btn__content,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover .block,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover span,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:hover i,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible .q-btn__content,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible .block,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible span,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:focus-visible i,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active .q-btn__content,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active .block,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active span,
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission:active i {
+.page-card .flex-row-center > a.q-btn.q-btn--outline:hover .q-btn__content,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:hover .block,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:hover span,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:hover i,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:focus-visible .q-btn__content,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:focus-visible .block,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:focus-visible span,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:focus-visible i,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:active .q-btn__content,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:active .block,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:active span,
+.page-card .flex-row-center > a.q-btn.q-btn--outline:active i {
   color: $textColor3 !important;
   fill: $textColor3 !important;
 }
 
-.page-card .flex-row-center > a.q-btn.q-btn--outline.text-commission .q-focus-helper {
+.page-card .flex-row-center > a.q-btn.q-btn--outline .q-focus-helper {
   display: none !important;
   opacity: 0 !important;
   background: transparent !important;
+}
+
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline {
+  background: $backgroundColor1;
+  background-color: $backgroundColor1;
+  background-image: none;
+  color: $associationColor !important;
+  border: 2px solid $associationColor !important;
+  box-shadow: none;
+}
+
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline .q-btn__content,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline span,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline i {
+  color: $associationColor !important;
+  fill: $associationColor !important;
+}
+
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:hover,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:focus,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:focus-visible,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:active {
+  background: $associationColor !important;
+  background-color: $associationColor !important;
+  color: $textColor3 !important;
+  border-color: $associationColor !important;
+}
+
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:hover .q-btn__content,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:hover span,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:hover i,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:focus-visible .q-btn__content,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:focus-visible span,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:focus-visible i,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:active .q-btn__content,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:active span,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:active i {
+  color: $textColor3 !important;
+  fill: $textColor3 !important;
 }
