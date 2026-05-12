@@ -318,7 +318,7 @@ $dashboardColorActive: #8A1538;
 }
 
 // ---------------- Form action buttons aligned with home buttons ----------------
-form .q-btn {
+form .q-btn:not(.q-btn--outline) {
   background: $associationColor;
   color: $textColor3;
   border: 2px solid $associationColor;
@@ -332,69 +332,69 @@ form .q-btn {
   line-height: 1.2;
 }
 
-form .q-btn .q-btn__content,
-form .q-btn span,
-form .q-btn i {
+form .q-btn:not(.q-btn--outline) .q-btn__content,
+form .q-btn:not(.q-btn--outline) span,
+form .q-btn:not(.q-btn--outline) i {
   color: $textColor3;
 }
 
-form .q-btn .q-btn__content {
+form .q-btn:not(.q-btn--outline) .q-btn__content {
   min-height: 0 !important;
   line-height: 1.2;
   font-size: 1.6rem;
   gap: .6rem;
 }
 
-form .q-btn i {
+form .q-btn:not(.q-btn--outline) i {
   font-size: 1.9rem;
 }
 
-form .q-btn:hover,
-form .q-btn:focus,
-form .q-btn:focus-visible,
-form .q-btn:active {
+form .q-btn:not(.q-btn--outline):hover,
+form .q-btn:not(.q-btn--outline):focus,
+form .q-btn:not(.q-btn--outline):focus-visible,
+form .q-btn:not(.q-btn--outline):active {
   background: $backgroundColor1 !important;
   color: $associationColor;
   border-color: $associationColor;
 }
 
-form .q-btn:hover .q-btn__content,
-form .q-btn:focus .q-btn__content,
-form .q-btn:focus-visible .q-btn__content,
-form .q-btn:active .q-btn__content,
-form .q-btn:hover span,
-form .q-btn:focus span,
-form .q-btn:focus-visible span,
-form .q-btn:active span,
-form .q-btn:hover i,
-form .q-btn:focus i,
-form .q-btn:focus-visible i,
-form .q-btn:active i {
+form .q-btn:not(.q-btn--outline):hover .q-btn__content,
+form .q-btn:not(.q-btn--outline):focus .q-btn__content,
+form .q-btn:not(.q-btn--outline):focus-visible .q-btn__content,
+form .q-btn:not(.q-btn--outline):active .q-btn__content,
+form .q-btn:not(.q-btn--outline):hover span,
+form .q-btn:not(.q-btn--outline):focus span,
+form .q-btn:not(.q-btn--outline):focus-visible span,
+form .q-btn:not(.q-btn--outline):active span,
+form .q-btn:not(.q-btn--outline):hover i,
+form .q-btn:not(.q-btn--outline):focus i,
+form .q-btn:not(.q-btn--outline):focus-visible i,
+form .q-btn:not(.q-btn--outline):active i {
   color: $associationColor;
 }
 
-form .q-btn .q-focus-helper {
+form .q-btn:not(.q-btn--outline) .q-focus-helper {
   opacity: 0;
 }
 
-form .q-btn:disabled,
-form .q-btn[disabled],
-form .q-btn.disabled {
+form .q-btn:not(.q-btn--outline):disabled,
+form .q-btn:not(.q-btn--outline)[disabled],
+form .q-btn:not(.q-btn--outline).disabled {
   background: #d9d9d9;
   color: #666666;
   border-color: #d9d9d9;
   box-shadow: none;
 }
 
-form .q-btn:disabled .q-btn__content,
-form .q-btn[disabled] .q-btn__content,
-form .q-btn.disabled .q-btn__content,
-form .q-btn:disabled span,
-form .q-btn[disabled] span,
-form .q-btn.disabled span,
-form .q-btn:disabled i,
-form .q-btn[disabled] i,
-form .q-btn.disabled i {
+form .q-btn:not(.q-btn--outline):disabled .q-btn__content,
+form .q-btn:not(.q-btn--outline)[disabled] .q-btn__content,
+form .q-btn:not(.q-btn--outline).disabled .q-btn__content,
+form .q-btn:not(.q-btn--outline):disabled span,
+form .q-btn:not(.q-btn--outline)[disabled] span,
+form .q-btn:not(.q-btn--outline).disabled span,
+form .q-btn:not(.q-btn--outline):disabled i,
+form .q-btn:not(.q-btn--outline)[disabled] i,
+form .q-btn:not(.q-btn--outline).disabled i {
   color: #666666;
 }
 
@@ -482,6 +482,7 @@ form .q-btn.disabled i {
   background-image: none;
   color: $associationColor !important;
   border: 2px solid $associationColor !important;
+  border-radius: 999rem !important;
   box-shadow: none;
 }
 
@@ -490,6 +491,7 @@ form .q-btn.disabled i {
   background: transparent;
   border: 0;
   box-shadow: none;
+  border-radius: 999rem !important;
 }
 
 .page-card .flex-row-center > a.q-btn.q-btn--outline .q-btn__content,
@@ -543,6 +545,130 @@ form .q-btn.disabled i {
   display: none !important;
   opacity: 0 !important;
   background: transparent !important;
+}
+
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg,
+.flex-row-center .q-btn.q-btn--outline.btn-lg {
+  background: $backgroundColor1;
+  background-color: $backgroundColor1;
+  background-image: none;
+  color: $associationColor !important;
+  border: 2px solid $associationColor !important;
+  border-radius: 999rem !important;
+  box-shadow: none;
+}
+
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg::before,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg::after,
+.flex-row-center .q-btn.q-btn--outline.btn-lg::before,
+.flex-row-center .q-btn.q-btn--outline.btn-lg::after {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  border-radius: 999rem !important;
+}
+
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg .q-btn__content,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg .block,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg span,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg i,
+.flex-row-center .q-btn.q-btn--outline.btn-lg .q-btn__content,
+.flex-row-center .q-btn.q-btn--outline.btn-lg .block,
+.flex-row-center .q-btn.q-btn--outline.btn-lg span,
+.flex-row-center .q-btn.q-btn--outline.btn-lg i {
+  color: $associationColor !important;
+  fill: $associationColor !important;
+}
+
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:hover,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:focus,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:focus-visible,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:active,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:hover,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:focus,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:focus-visible,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:active {
+  background: $associationColor !important;
+  background-color: $associationColor !important;
+  background-image: none !important;
+  color: $textColor3 !important;
+  border-color: $associationColor !important;
+  box-shadow: none !important;
+}
+
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:hover .q-btn__content,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:hover .block,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:hover span,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:hover i,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:focus-visible .q-btn__content,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:focus-visible .block,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:focus-visible span,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:focus-visible i,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:active .q-btn__content,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:active .block,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:active span,
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg:active i,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:hover .q-btn__content,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:hover .block,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:hover span,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:hover i,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:focus-visible .q-btn__content,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:focus-visible .block,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:focus-visible span,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:focus-visible i,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:active .q-btn__content,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:active .block,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:active span,
+.flex-row-center .q-btn.q-btn--outline.btn-lg:active i {
+  color: $textColor3 !important;
+  fill: $textColor3 !important;
+}
+
+.flex-row-space-between .q-btn.q-btn--outline.btn-lg .q-focus-helper,
+.flex-row-center .q-btn.q-btn--outline.btn-lg .q-focus-helper {
+  display: none !important;
+  opacity: 0 !important;
+  background: transparent !important;
+}
+
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline {
+  background: $backgroundColor1;
+  background-color: $backgroundColor1;
+  background-image: none;
+  color: $associationColor !important;
+  border: 2px solid $associationColor !important;
+  border-radius: 0.4rem !important;
+  box-shadow: none;
+}
+
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline .q-btn__content,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline span,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline i {
+  color: $associationColor !important;
+  fill: $associationColor !important;
+}
+
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:hover,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:focus,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:focus-visible,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:active {
+  background: $associationColor !important;
+  background-color: $associationColor !important;
+  color: $textColor3 !important;
+  border-color: $associationColor !important;
+}
+
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:hover .q-btn__content,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:hover span,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:hover i,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:focus-visible .q-btn__content,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:focus-visible span,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:focus-visible i,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:active .q-btn__content,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:active span,
+.actions-cell-compact .button-container > a.q-btn.q-btn--outline:active i {
+  color: $textColor3 !important;
+  fill: $textColor3 !important;
 }
 
 .actions-cell-compact .button-container > a.q-btn.q-btn--outline {
