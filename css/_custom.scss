@@ -318,7 +318,7 @@ $dashboardColorActive: #8A1538;
 }
 
 // ---------------- Form action buttons aligned with home buttons ----------------
-form .q-btn:not(.q-btn--outline) {
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat) {
   background: $associationColor;
   color: $textColor3;
   border: 2px solid $associationColor;
@@ -332,69 +332,69 @@ form .q-btn:not(.q-btn--outline) {
   line-height: 1.2;
 }
 
-form .q-btn:not(.q-btn--outline) .q-btn__content,
-form .q-btn:not(.q-btn--outline) span,
-form .q-btn:not(.q-btn--outline) i {
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat) .q-btn__content,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat) span,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat) i {
   color: $textColor3;
 }
 
-form .q-btn:not(.q-btn--outline) .q-btn__content {
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat) .q-btn__content {
   min-height: 0 !important;
   line-height: 1.2;
   font-size: 1.6rem;
   gap: .6rem;
 }
 
-form .q-btn:not(.q-btn--outline) i {
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat) i {
   font-size: 1.9rem;
 }
 
-form .q-btn:not(.q-btn--outline):hover,
-form .q-btn:not(.q-btn--outline):focus,
-form .q-btn:not(.q-btn--outline):focus-visible,
-form .q-btn:not(.q-btn--outline):active {
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):hover,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):focus,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):focus-visible,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):active {
   background: $backgroundColor1 !important;
   color: $associationColor;
   border-color: $associationColor;
 }
 
-form .q-btn:not(.q-btn--outline):hover .q-btn__content,
-form .q-btn:not(.q-btn--outline):focus .q-btn__content,
-form .q-btn:not(.q-btn--outline):focus-visible .q-btn__content,
-form .q-btn:not(.q-btn--outline):active .q-btn__content,
-form .q-btn:not(.q-btn--outline):hover span,
-form .q-btn:not(.q-btn--outline):focus span,
-form .q-btn:not(.q-btn--outline):focus-visible span,
-form .q-btn:not(.q-btn--outline):active span,
-form .q-btn:not(.q-btn--outline):hover i,
-form .q-btn:not(.q-btn--outline):focus i,
-form .q-btn:not(.q-btn--outline):focus-visible i,
-form .q-btn:not(.q-btn--outline):active i {
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):hover .q-btn__content,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):focus .q-btn__content,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):focus-visible .q-btn__content,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):active .q-btn__content,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):hover span,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):focus span,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):focus-visible span,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):active span,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):hover i,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):focus i,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):focus-visible i,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):active i {
   color: $associationColor;
 }
 
-form .q-btn:not(.q-btn--outline) .q-focus-helper {
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat) .q-focus-helper {
   opacity: 0;
 }
 
-form .q-btn:not(.q-btn--outline):disabled,
-form .q-btn:not(.q-btn--outline)[disabled],
-form .q-btn:not(.q-btn--outline).disabled {
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):disabled,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat)[disabled],
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat).disabled {
   background: #d9d9d9;
   color: #666666;
   border-color: #d9d9d9;
   box-shadow: none;
 }
 
-form .q-btn:not(.q-btn--outline):disabled .q-btn__content,
-form .q-btn:not(.q-btn--outline)[disabled] .q-btn__content,
-form .q-btn:not(.q-btn--outline).disabled .q-btn__content,
-form .q-btn:not(.q-btn--outline):disabled span,
-form .q-btn:not(.q-btn--outline)[disabled] span,
-form .q-btn:not(.q-btn--outline).disabled span,
-form .q-btn:not(.q-btn--outline):disabled i,
-form .q-btn:not(.q-btn--outline)[disabled] i,
-form .q-btn:not(.q-btn--outline).disabled i {
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):disabled .q-btn__content,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat)[disabled] .q-btn__content,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat).disabled .q-btn__content,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):disabled span,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat)[disabled] span,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat).disabled span,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat):disabled i,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat)[disabled] i,
+form .q-btn:not(.q-btn--outline):not(.q-btn--flat).disabled i {
   color: #666666;
 }
 
@@ -417,7 +417,7 @@ form .q-btn:not(.q-btn--outline).disabled i {
 }
 
 // ---------------- Global standard Quasar buttons ----------------
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) {
   background: $associationColor;
   color: $textColor3;
   border: 2px solid $associationColor;
@@ -431,7 +431,7 @@ form .q-btn:not(.q-btn--outline).disabled i {
   line-height: 1.2;
 }
 
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) .q-btn__content {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) .q-btn__content {
   min-height: 0 !important;
   line-height: 1.2;
   font-size: 1.6rem;
@@ -439,40 +439,40 @@ form .q-btn:not(.q-btn--outline).disabled i {
   color: $textColor3;
 }
 
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) span,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) i {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) span,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) i {
   color: $textColor3;
 }
 
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) i {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) i {
   font-size: 1.9rem;
 }
 
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active {
   background: $backgroundColor1 !important;
   color: $associationColor;
   border-color: $associationColor;
 }
 
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover .q-btn__content,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus .q-btn__content,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible .q-btn__content,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active .q-btn__content,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover span,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus span,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible span,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active span,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover i,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus i,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible i,
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active i {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover .q-btn__content,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus .q-btn__content,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible .q-btn__content,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active .q-btn__content,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover span,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus span,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible span,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active span,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):hover i,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus i,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):focus-visible i,
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled):active i {
   color: $associationColor;
 }
 
-.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) .q-focus-helper {
+.q-btn:not(.q-btn--round):not(.q-btn--rounded):not(.q-btn--fab):not(.q-btn--fab-mini):not(.q-btn--dense):not(.q-btn-dropdown):not(.q-btn--outline):not(.q-btn--flat):not(.q-btn-group .q-btn):not([disabled]):not(.disabled) .q-focus-helper {
   opacity: 0;
 }
 
