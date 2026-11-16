@@ -1,5 +1,4 @@
 charter.site.name=UPCité
-charter=Espace label
 home.charter.title-line-1=Label
 home.charter.title-line-2=des associations @:charter.site.name
 cape=CPA
