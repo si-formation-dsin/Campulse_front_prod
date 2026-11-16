@@ -1,6 +1,9 @@
 charter.site.name=UPCité
+header.charter=Label
+breadcrumbs.charter=Espace label
 home.charter.title-line-1=Label
 home.charter.title-line-2=des associations @:charter.site.name
+home.charter.button=Espace label
 cape=CPA
 home.commission.title-line-1=CPA
 home.commission.title-line-2=Commission Projet Associatif
