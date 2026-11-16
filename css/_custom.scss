@@ -21,6 +21,11 @@ h3,
   font-family: $titleFont;
 }
 
+// ---------------- Header background ----------------
+header.q-header {
+  background-position: center 55%;
+}
+
 // ---------------- Home icon alignment ----------------
 #home-info-panel .home-banner-icon.home-banner-icon {
   display: inline-flex;
