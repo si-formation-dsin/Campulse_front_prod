@@ -754,3 +754,8 @@ form .q-btn:not(.q-btn--outline):not(.q-btn--flat).disabled i {
 .table-actions-select .q-btn.btn-lg[type='button'] i {
   font-size: 1.9rem !important;
 }
+
+// ---------------- Content image vertical alignment ----------------
+.image-text-section .container {
+  align-items: center;
+}
