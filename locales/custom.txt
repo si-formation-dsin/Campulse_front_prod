@@ -10,3 +10,4 @@ home.commission.title-line-2=Commission Projet Associatif
 project.recap=synthèse
 project.download-recap=Télécharger la synthèse au format PDF
 university-name=Université Paris Cité
+project.form-help=Si vous rencontrez des difficultés pour remplir ce formulaire, n'hésitez pas à prendre contact avec le département vie associative : vie.associative{'@'}u-pariscite.fr
