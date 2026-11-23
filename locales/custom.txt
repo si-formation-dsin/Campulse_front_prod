@@ -11,3 +11,6 @@ project.recap=synthèse
 project.download-recap=Télécharger la synthèse au format PDF
 university-name=Université Paris Cité
 project.form-help=Si vous rencontrez des difficultés pour remplir ce formulaire, n'hésitez pas à prendre contact avec le département vie associative : vie.associative{'@'}u-pariscite.fr
+project.moral-review-hint=Bilan global du projet. Décrivez ce que vous avez réalisé, et spécifiez les éventuelles différences avec votre projet (Résultats obtenus, nombre de participants, partenariats développés…)
+project.description-hint=Déroulement du projet (Activités réalisées, fréquentation, modifications par rapport au programme initial et leurs justifications…)
+
