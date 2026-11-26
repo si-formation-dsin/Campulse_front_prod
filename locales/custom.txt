@@ -29,4 +29,5 @@ project.sustainable-development=Quels partenaires, intervenants ou personnalité
 project.impact-students=Précisez les réussites de votre projet, les difficultés rencontrées, si vous avez atteint vos objectifs tels que décrits dans votre projet. Précisez aussi l’impact effectif sur la vie étudiante et la vie de campus des étudiantes et des étudiantes … (Sensibilisation, lien social, accès à de nouvelles pratiques…)
 project.difficulties=Dépenses réalisées. Précisez le montant total dépensé dans les postes de dépenses autorisés pour la subvention.
 project.improvements=Quelles sont les perspectives de votre projet ? (Axes d'amélioration, reconduction de voir projet, suivi des bénéficiaires de votre projet, continuité des partenariats, réflexion sur les coûts, sur l’impact écologique…)
-project.required-documents-list=Avant de débuter la procédure, voici la liste des documents qui vous seront demandés à la fin de votre dépôt (certains templates sont téléchargeables) :
+project.required-documents-list=Avant de débuter la procédure, voici la liste des documents qui vous seront demandés à la fin de votre dépôt (certains modèles sont téléchargeables) :
+
